@@ -65,14 +65,14 @@ total_B = Team_B_2A+Team_B_3A+Team_B_C3A
 stri = ["2PT","C3", "NC3"]
 
 for i in range(3):
-    print("The % of shots taken in the "+ stri[i]+" zone for Team A is " + str((a[2*i]/total_A))+"%")
-    print("The % of shots taken in the "+ stri[i]+" zone for Team B is " + str((b[2 * i] / total_B)) + "%")
+    print("The % of shots taken in the "+ stri[i]+" zone for Team A is " + str((a[2*i]/total_A)))
+    print("The % of shots taken in the "+ stri[i]+" zone for Team B is " + str((b[2 * i] / total_B)))
 
 
-print("The effective field goal percentage for Team A with 2PT shots is "+ str(E(Team_A_2A,Team_A_2M,0)) + "%")
-print("The effective field goal percentage for Team A with 3PT Corner shots is "+ str(E(Team_A_C3A,Team_A_C3M,Team_A_C3M)) + "%")
-print("The effective field goal percentage for Team A with 3PT non-corner is "+ str(E(Team_A_3A,Team_A_3M,Team_A_3M)) + "%")
+print("The effective field goal percentage for Team A with 2PT shots is "+ str(E(Team_A_2A,Team_A_2M,0)))
+print("The effective field goal percentage for Team A with 3PT Corner shots is "+ str(E(Team_A_C3A,Team_A_C3M,Team_A_C3M)))
+print("The effective field goal percentage for Team A with 3PT non-corner is "+ str(E(Team_A_3A,Team_A_3M,Team_A_3M)))
 
-print("The effective field goal percentage for Team B with 2PT shots is "+ str(E(Team_B_2A,Team_B_2M,0)) + "%")
-print("The effective field goal percentage for Team B with 3PT Corner shots is "+ str(E(Team_B_C3A,Team_B_C3M,Team_B_C3M)) + "%")
-print("The effective field goal percentage for Team B with 3PT non-corner is "+ str(E(Team_B_3A,Team_B_3M,Team_B_3M)) + "%")
+print("The effective field goal percentage for Team B with 2PT shots is "+ str(E(Team_B_2A,Team_B_2M,0)))
+print("The effective field goal percentage for Team B with 3PT Corner shots is "+ str(E(Team_B_C3A,Team_B_C3M,Team_B_C3M)))
+print("The effective field goal percentage for Team B with 3PT non-corner is "+ str(E(Team_B_3A,Team_B_3M,Team_B_3M)))
